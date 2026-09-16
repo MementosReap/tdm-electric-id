@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mementosreap.github.io/tdm-electric-id/sitemap.xml

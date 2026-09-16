@@ -1,0 +1,6 @@
+.DS_Store
+*.log
+
+# Internal working notes: open items, supplier questions, pricing context.
+# Deliberately not published.
+README.internal.md

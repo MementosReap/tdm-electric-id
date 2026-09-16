@@ -35,6 +35,16 @@ assets/
 
 **Languages.** Indonesian is the default, English is a toggle in the header, remembered per visitor. Static copy uses paired `data-lang-id` / `data-lang-en` elements; product names come from `nameId` / `nameEn`; interface strings live in the `T` dictionary in `main.js`.
 
+## Search and social metadata
+
+Each page carries a canonical URL, Open Graph and Twitter card tags, and a `theme-color`. Shared links preview with `assets/img/og-cover.jpg` (1200×630).
+
+Structured data is JSON-LD: `Organization` + `WebSite` on the homepage, and an `ItemList` of every product on the catalogue. **The catalogue block is generated from `products.js`** — if you change a price there, regenerate it rather than hand-editing the JSON, so the two cannot disagree. Google reads price and availability from it, and a mismatch with the visible page can cost you the rich result.
+
+One known limit: both languages live in the same HTML and are toggled with CSS, so a crawler sees Indonesian and English on a single URL. Indonesian is the declared page language and the primary market, so this is a deliberate trade. Proper `hreflang` would need separate `/en/` URLs.
+
+If you move to a custom domain, update the URLs in `sitemap.xml`, `robots.txt`, the canonical and `og:*` tags on all four pages, and the JSON-LD `@id` values.
+
 ## Local preview
 
 ```bash

@@ -123,7 +123,10 @@
 .hx .cta2>span{margin-top:0}
 
 /* --- hero type --- */
-.hx .h1{left:586px;transform:translateX(-50%);white-space:nowrap;line-height:1;
+/* the <h1> is a transparent shell sharing the stack's coordinate space; the two
+   lines inside it are positioned individually by the fitter */
+.hx .h1-lines{position:absolute;inset:0;margin:0;font:inherit;letter-spacing:normal}
+.hx .h1{position:absolute;left:586px;transform:translateX(-50%);white-space:nowrap;line-height:1;
   font-family:Poppins;font-weight:900;font-size:54px;letter-spacing:-.004em;
   word-spacing:.175em;text-transform:uppercase;color:#fff;
   text-shadow:0 0 34px rgba(255,170,90,.22);z-index:300}
@@ -295,7 +298,8 @@
   .hx .badge i{top:4px;left:4px;width:28px;height:28px}
   .hx .badge i svg{width:13px;height:19px}
   /* 8.4em sits between PERLENGKAPAN (8.06em) and PERLENGKAPAN LISTRIK (~13em) */
-  .hx .h1{position:relative;left:auto;top:auto;transform:none;white-space:normal;
+  .hx .h1-lines{display:contents}
+  .hx .h1{position:relative;display:block;left:auto;top:auto;transform:none;white-space:normal;
     text-align:center;font-size:clamp(29px,8.4vw,36px);line-height:1.06;
     letter-spacing:-.01em;max-width:8.4em}
   .hx .h1.l1{margin-top:clamp(12px,2.2vh,20px)}

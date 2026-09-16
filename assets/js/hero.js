@@ -324,12 +324,18 @@ requestAnimationFrame(tick);
   }
   if (!root.classList.contains('intro') || reduce.matches || !Element.prototype.animate){ settle(); return; }
 
-  var D = hx.clientWidth <= 700 ? 0.66 : 1;
+  var phone = hx.clientWidth <= 700;
+  var D = phone ? 0.66 : 1;   // phones travel shorter distances
+  // Phones also run the whole timeline at half length. The headline is the LCP
+  // element and cannot count as painted until its opacity animation finishes,
+  // so a leisurely entrance directly inflates Largest Contentful Paint.
+  var S = phone ? 0.5 : 1;
   var EXPO = 'cubic-bezier(.16,1,.3,1)', SOFT = 'cubic-bezier(.22,.61,.36,1)';
   var n = 0, lastAnim = null, lastEnd = -1;
   function Y(px){ return '0 ' + (px * D) + 'px'; }
   function play(el, from, dur, delay, ease){
     if (!el) return;
+    dur *= S; delay *= S;
     var to = {opacity: 1};
     if (from.translate) to.translate = '0 0';
     if (from.scale)     to.scale = '1';

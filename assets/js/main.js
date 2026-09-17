@@ -8,7 +8,10 @@ const CONFIG = {
   waGreetingId: "Halo TDM Electric Indonesia, saya ingin menanyakan produk",
   waGreetingEn: "Hello TDM Electric Indonesia, I would like to ask about",
   tokopedia: "https://www.tokopedia.com/tdm-electric",
-  blibli: "", // isi setelah toko Blibli aktif
+  // Official share link from Blibli Seller Center (store TDE-70004). It is an
+  // AppsFlyer redirect; swap for the canonical blibli.com store URL when you
+  // have it, and this is the only line that needs changing.
+  blibli: "https://blibli.onelink.me/GNtk/sx7xff5p",
   email: "mike@pnglobalindo.com",
 };
 

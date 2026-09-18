@@ -49,7 +49,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 11400,
+    "price": 13700,
     "images": [
       "assets/img/products/SQ1806-0405.jpg"
     ],
@@ -69,7 +69,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 11400,
+    "price": 13700,
     "images": [
       "assets/img/products/SQ1806-0406.jpg"
     ],
@@ -89,7 +89,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 10800,
+    "price": 13000,
     "images": [
       "assets/img/products/SQ1806-0411.jpg"
     ],
@@ -109,7 +109,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 10800,
+    "price": 13000,
     "images": [
       "assets/img/products/SQ1806-0412.jpg"
     ],
@@ -130,7 +130,7 @@ const PRODUCTS = [
       "IP20",
       "Maks 4000W"
     ],
-    "price": 11700,
+    "price": 14000,
     "images": [
       "assets/img/products/SQ1806-0003.jpg"
     ],
@@ -150,7 +150,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 11500,
+    "price": 13800,
     "images": [
       "assets/img/products/SQ1806-0004.jpg"
     ],
@@ -170,7 +170,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 19800,
+    "price": 23800,
     "images": [
       "assets/img/products/SQ1806-0009.jpg"
     ],
@@ -190,7 +190,7 @@ const PRODUCTS = [
       "250V",
       "IP44"
     ],
-    "price": 25400,
+    "price": 30500,
     "images": [
       "assets/img/products/SQ1818-0001.jpg"
     ],
@@ -210,7 +210,7 @@ const PRODUCTS = [
       "250V",
       "IP44"
     ],
-    "price": 38600,
+    "price": 46300,
     "images": [
       "assets/img/products/SQ1818-0002.jpg"
     ],
@@ -231,7 +231,7 @@ const PRODUCTS = [
       "IP54",
       "Tutup transparan"
     ],
-    "price": 41300,
+    "price": 49600,
     "images": [
       "assets/img/products/SQ1818-0009.jpg"
     ],
@@ -251,7 +251,7 @@ const PRODUCTS = [
       "2 gang",
       "Arde"
     ],
-    "price": 34000,
+    "price": 40800,
     "images": [
       "assets/img/products/SQ1815-0025.jpg",
       "assets/img/products/SQ1815-0025_2.jpg"
@@ -272,7 +272,7 @@ const PRODUCTS = [
       "Tutup flip",
       "Arde"
     ],
-    "price": 34650,
+    "price": 41600,
     "images": [
       "assets/img/products/SQ1804-0011.jpg"
     ],
@@ -292,7 +292,7 @@ const PRODUCTS = [
       "Tutup flip",
       "Arde"
     ],
-    "price": 34650,
+    "price": 41600,
     "images": [
       "assets/img/products/SQ1805-0019.jpg"
     ],
@@ -312,7 +312,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13750,
+    "price": 16500,
     "images": [
       "assets/img/products/SQ1824-0010.jpg"
     ],
@@ -331,7 +331,7 @@ const PRODUCTS = [
       "0,5-1,5 mm²",
       "Isi 100 pcs"
     ],
-    "price": 23104,
+    "price": 27700,
     "images": [
       "assets/img/products/SQ0502-0001.jpg"
     ],
@@ -350,7 +350,7 @@ const PRODUCTS = [
       "±1,5 mm²",
       "Isi 100 pcs"
     ],
-    "price": 29000,
+    "price": 34800,
     "images": [
       "assets/img/products/SQ0504-0003.jpg"
     ],
@@ -370,7 +370,7 @@ const PRODUCTS = [
       "Panjang 12 mm",
       "Isi 100 pcs"
     ],
-    "price": 30627,
+    "price": 36800,
     "images": [
       "assets/img/products/SQ0512-0006.jpg"
     ],
@@ -390,7 +390,7 @@ const PRODUCTS = [
       "Panjang 12 mm",
       "Isi 100 pcs"
     ],
-    "price": 23400,
+    "price": 28100,
     "images": [
       "assets/img/products/SQ0512-0022.jpg"
     ],
@@ -410,7 +410,7 @@ const PRODUCTS = [
       "46 mm",
       "Isi 10 pcs"
     ],
-    "price": 8490,
+    "price": 10200,
     "images": [
       "assets/img/products/SQ0541-0004.jpg"
     ],
@@ -430,7 +430,7 @@ const PRODUCTS = [
       "Metal",
       "Braket + kabel"
     ],
-    "price": 37350,
+    "price": 44800,
     "images": [
       "assets/img/products/SQ0335-0047.jpg"
     ],
@@ -450,7 +450,7 @@ const PRODUCTS = [
       "Metal",
       "220V"
     ],
-    "price": 37350,
+    "price": 44800,
     "images": [
       "assets/img/products/SQ0335-0050.jpg"
     ],
@@ -529,7 +529,7 @@ const PRODUCTS = [
       "CR-V",
       "VDE"
     ],
-    "price": 150000,
+    "price": 180000,
     "images": [
       "assets/img/products/SQ1010-0101.jpg"
     ],
@@ -550,7 +550,7 @@ const PRODUCTS = [
       "CR-V",
       "VDE"
     ],
-    "price": 150000,
+    "price": 180000,
     "images": [
       "assets/img/products/SQ1010-0103.jpg"
     ],
@@ -570,7 +570,7 @@ const PRODUCTS = [
       "8 pcs",
       "Tas kain"
     ],
-    "price": 350000,
+    "price": 420000,
     "images": [
       "assets/img/products/SQ1017-0101.jpg"
     ],

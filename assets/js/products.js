@@ -247,6 +247,8 @@ const PRODUCTS = [
     "nameEn": "Double Recessed Socket",
     "cat": "plugs",
     "specs": [
+      "16A",
+      "250V",
       "IP20",
       "2 gang",
       "Arde"
@@ -268,6 +270,7 @@ const PRODUCTS = [
     "nameEn": "Socket with Splash Cover",
     "cat": "plugs",
     "specs": [
+      "16A",
       "IP44",
       "Tutup flip",
       "Arde"
@@ -288,6 +291,8 @@ const PRODUCTS = [
     "nameEn": "Socket with Splash Cover (Onega)",
     "cat": "plugs",
     "specs": [
+      "16A",
+      "250V",
       "IP44",
       "Tutup flip",
       "Arde"

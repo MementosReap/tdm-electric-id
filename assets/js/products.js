@@ -57,7 +57,11 @@ const PRODUCTS = [
     "material": "Termoplastik ABS",
     "dims": "39 x 41 x 83 mm",
     "weight": "30 g",
-    "pack": null
+    "pack": null,
+    "slug": "steker-bengkok-arde-grounding-putih-sq1806-0405",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/grounded-angled-plug-steker-arde-bengkok-1737493947474347147-1737494285086852235",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00001.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0406",
@@ -77,7 +81,11 @@ const PRODUCTS = [
     "material": "Termoplastik ABS",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "steker-bengkok-arde-grounding-hitam-sq1806-0406",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/grounded-angled-plug-steker-arde-bengkok-1737493947474347147-1737494303664931979",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00012.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0411",
@@ -97,7 +105,11 @@ const PRODUCTS = [
     "material": "ABS, kontak kuningan berlapis nikel",
     "dims": "70 x 40 x 40 mm",
     "weight": "20 g",
-    "pack": null
+    "pack": null,
+    "slug": "steker-kabel-betina-2p-arde-putih-sq1806-0411",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/stop-kontak-kabel-female-16a-250v-dengan-grounding-1737515211012277387-1737515385447220363",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00018.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0412",
@@ -117,7 +129,11 @@ const PRODUCTS = [
     "material": "Termoplastik",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "steker-kabel-betina-2p-arde-hitam-sq1806-0412",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/stop-kontak-kabel-female-16a-250v-dengan-grounding-1737515211012277387-1737515385447285899",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00019.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0003",
@@ -138,7 +154,11 @@ const PRODUCTS = [
     "material": "ABS tahan benturan",
     "dims": "90 x 42 x 42 mm",
     "weight": "41 g",
-    "pack": null
+    "pack": null,
+    "slug": "steker-lurus-arde-grounding-putih-sq1806-0003",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/steker-listrik-straight-16a-250v-dengan-grounding-1737514515499680907-1737514597809226891",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00020.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0004",
@@ -158,7 +178,11 @@ const PRODUCTS = [
     "material": "Plastik tahan benturan",
     "dims": null,
     "weight": "40 g",
-    "pack": null
+    "pack": null,
+    "slug": "steker-karet-lurus-hitam-sq1806-0004",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/steker-listrik-straight-16a-250v-dengan-grounding-1737514515499680907-1737514597809292427",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00021.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1806-0009",
@@ -178,7 +202,11 @@ const PRODUCTS = [
     "material": "ABS self-extinguishing",
     "dims": "93 x 85 x 39 mm",
     "weight": "51 g",
-    "pack": null
+    "pack": null,
+    "slug": "steker-bengkok-saklar-sq1806-0009",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/steker-siku-dengan-saklar-grounding-16a-250v-plug-listrik-tdm-1737514436357227659",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00022.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1818-0001",
@@ -198,7 +226,11 @@ const PRODUCTS = [
     "material": "Termoplastik",
     "dims": "67 x 69 x 37 mm",
     "weight": "100 g",
-    "pack": null
+    "pack": null,
+    "slug": "saklar-tunggal-outdoor-tahan-cipratan-sq1818-0001",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/saklar-listrik-tahan-air-indoor-outdoor-1737493753644221579-1737493832806728843",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00023.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1818-0002",
@@ -218,7 +250,11 @@ const PRODUCTS = [
     "material": "Termoplastik",
     "dims": "79 x 49 x 79 mm",
     "weight": "78 g",
-    "pack": null
+    "pack": null,
+    "slug": "saklar-ganda-outdoor-tahan-cipratan-sq1818-0002",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/saklar-listrik-tahan-air-indoor-outdoor-1737493753644221579-1737493832806794379",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00024.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1818-0009",
@@ -239,7 +275,11 @@ const PRODUCTS = [
     "material": "Termoplastik",
     "dims": "122 x 67 x 52 mm",
     "weight": "120 g",
-    "pack": null
+    "pack": null,
+    "slug": "stop-kontak-double-outdoor-ip54-sq1818-0009",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/stop-kontak-outdoor-tahan-air-dengan-cover-1737493807277573259",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00002.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1815-0025",
@@ -262,7 +302,11 @@ const PRODUCTS = [
     "material": "Plastik, faceplate polikarbonat",
     "dims": "92 x 83 x 40 mm",
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "stop-kontak-double-tanam-inbow-sq1815-0025",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00003.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1804-0011",
@@ -283,7 +327,11 @@ const PRODUCTS = [
     "material": "ABS, kontak fosfor-perunggu, bebas halogen",
     "dims": "82 x 82 x 32 mm",
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "stop-kontak-tutup-flip-anti-cipratan-sq1804-0011",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/stop-kontak-dengan-penutup-grounding-16a-250v-ip44-1737515131091584139",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00004.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1805-0019",
@@ -305,7 +353,11 @@ const PRODUCTS = [
     "material": "Plastik bebas halogen",
     "dims": "81 x 83 x 42 mm",
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "stop-kontak-tutup-flip-anti-cipratan-seri-onega-sq1805-0019",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00005.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1824-0010",
@@ -325,7 +377,11 @@ const PRODUCTS = [
     "material": "Termoplastik",
     "dims": "100 x 55 x 35 mm",
     "weight": "60 g",
-    "pack": null
+    "pack": null,
+    "slug": "stop-kontak-double-tempel-outbow-sq1824-0010",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/stop-kontak-2-lubang-surface-mount-16a-250v-grounding-1737514613938095243",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00006.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0502-0001",
@@ -344,7 +400,11 @@ const PRODUCTS = [
     "material": "Kuningan, isolasi PVC",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "skun-ring-nki-1-25-4-sq0502-0001",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/skun-ring-nki-1-25-4-konektor-kabel-merah-100-pcs-untuk-listrik-1737333201469998219",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00007.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0504-0003",
@@ -363,7 +423,11 @@ const PRODUCTS = [
     "material": "Kuningan berlapis nikel, isolasi PVC",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "konektor-female-pipih-rpim-1-25-250-sq0504-0003",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00008.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0512-0006",
@@ -383,7 +447,11 @@ const PRODUCTS = [
     "material": "Kuningan, isolasi polipropilen",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "ferrule-kabel-berisolasi-e10-12-sq0512-0006",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/skun-ferrule-e10-12-10mm-isi-100-pcs-skun-pin-kabel-berisolasi-tdm-1737348585127642251",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00009.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0512-0022",
@@ -403,7 +471,11 @@ const PRODUCTS = [
     "material": "Kuningan timah, isolasi polipropilen",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "ferrule-kabel-berisolasi-e4012-sq0512-0022",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00010.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0541-0004",
@@ -423,7 +495,11 @@ const PRODUCTS = [
     "material": "Isolasi PVC",
     "dims": "Panjang klip 46 mm",
     "weight": null,
-    "pack": "10 pcs"
+    "pack": "10 pcs",
+    "slug": "capit-buaya-berisolasi-zki-5a-sq0541-0004",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00011.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0335-0047",
@@ -443,7 +519,11 @@ const PRODUCTS = [
     "material": "Keramik & metal",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "fitting-lampu-gantung-loft-hitam-sq0335-0047",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/pendant-lamp-holder-fitting-dudukan-lampu-gantung-1737332533249016971-1737332676107535499",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00013.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0335-0050",
@@ -463,7 +543,11 @@ const PRODUCTS = [
     "material": "Keramik & metal finishing tembaga",
     "dims": "±50 x 50 x 80 mm",
     "weight": "86 g",
-    "pack": null
+    "pack": null,
+    "slug": "fitting-lampu-gantung-loft-tembaga-sq0335-0050",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/pendant-lamp-holder-fitting-dudukan-lampu-gantung-1737332533249016971-1737332676107601035",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00014.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ0335-0078",
@@ -483,7 +567,11 @@ const PRODUCTS = [
     "material": "Plastik tahan panas",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": null,
+    "slug": "fitting-lampu-dinding-e27-tahan-panas-hitam-sq0335-0078",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/wall-lampholder-heat-resistant-soket-lampu-tahan-panas-1737332963013526667",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00028.html",
+    "warrantyYears": 1
   },
   {
     "sku": "SQ1809-0021",
@@ -503,7 +591,11 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "konektor-f-type-untuk-kabel-antena-rg6-sq1809-0021",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00025.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1809-0022",
@@ -522,7 +614,11 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "adaptor-konektor-f-ke-steker-tv-sq1809-0022",
+    "tokopedia": null,
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00026.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1809-0023",
@@ -541,7 +637,11 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": "100 pcs"
+    "pack": "100 pcs",
+    "slug": "adaptor-konektor-f-ke-f-sq1809-0023",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/konektor-antena-f-female-to-f-female-f-socket-coupler-tdm-sq1809-0023-1737348849143547019",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00027.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1010-0101",
@@ -562,7 +662,11 @@ const PRODUCTS = [
     "material": "Baja CR-V, gagang dielektrik VDE + TPR",
     "dims": "Panjang 160 mm",
     "weight": "±150 g",
-    "pack": null
+    "pack": null,
+    "slug": "tang-potong-berisolasi-1000v-160mm-sq1010-0101",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/tdm-electric-insulated-side-cutters-160mm-alat-pemotong-sisi-terisolasi-dengan-panjang-160mm-1737332273340449931",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00015.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1010-0103",
@@ -583,7 +687,11 @@ const PRODUCTS = [
     "material": "Baja CR-V, gagang dielektrik VDE + TPR",
     "dims": "Panjang 160 mm",
     "weight": "198 g",
-    "pack": null
+    "pack": null,
+    "slug": "tang-lancip-berisolasi-1000v-160mm-sq1010-0103",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/insulated-long-nose-pliers-160mm-tang-lancip-berisolasi-1737332387527492747",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00016.html",
+    "warrantyYears": 3
   },
   {
     "sku": "SQ1017-0101",
@@ -603,6 +711,10 @@ const PRODUCTS = [
     "material": "Baja CR-V, tas kain",
     "dims": null,
     "weight": null,
-    "pack": "8 pcs"
+    "pack": "8 pcs",
+    "slug": "set-perkakas-berisolasi-1000v-8-pcs-sq1017-0101",
+    "tokopedia": "https://www.tokopedia.com/tdm-electric/insulated-tool-set-8pcs-set-peralatan-teknisi-listrik-berisolasi-profesional-1737331985918166155",
+    "blibli": "https://www.blibli.com/product-detail-TDE.70004.00017.html",
+    "warrantyYears": 3
   }
 ];

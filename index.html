@@ -29,8 +29,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/hero.css">
+<link rel="stylesheet" href="assets/css/style.css?v=6fcf7b43">
+<link rel="stylesheet" href="assets/css/hero.css?v=525a8b9a">
 <script>
 /* arms the hero's entrance before first paint; the failsafe guarantees the
    content can never be stranded invisible if the timeline never runs */
@@ -70,8 +70,25 @@ setTimeout(function(){document.documentElement.classList.remove('intro');},4000)
    ],
    "sameAs": [
     "https://www.tokopedia.com/tdm-electric",
-    "https://tdme.ru"
-   ]
+    "https://www.blibli.com/merchant/tdm-electric/TDE-70004"
+   ],
+   "brand": {
+    "@type": "Brand",
+    "name": "TDM Electric",
+    "url": "https://tdme.ru",
+    "logo": "https://tdme.pnglobalindo.com/assets/img/logo.jpeg"
+   },
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jakarta Pusat",
+    "addressRegion": "DKI Jakarta",
+    "addressCountry": "ID"
+   },
+   "parentOrganization": {
+    "@type": "Organization",
+    "name": "PT Pasifik Niaga Globalindo",
+    "url": "https://pnglobalindo.com"
+   }
   },
   {
    "@type": "WebSite",
@@ -456,11 +473,11 @@ setTimeout(function(){document.documentElement.classList.remove('intro');},4000)
       <div>
         <h4><span data-lang-id>Produk</span><span data-lang-en>Products</span></h4>
         <ul>
-          <li><a href="produk.html?cat=plugs"><span data-lang-id>Colokan & Stop Kontak</span><span data-lang-en>Plugs & Sockets</span></a></li>
-          <li><a href="produk.html?cat=cables"><span data-lang-id>Sepatu Kabel</span><span data-lang-en>Cable Lugs</span></a></li>
-          <li><a href="produk.html?cat=lighting"><span data-lang-id>Aksesori Lampu</span><span data-lang-en>Lighting</span></a></li>
-          <li><a href="produk.html?cat=antenna"><span data-lang-id>Konektor Antena</span><span data-lang-en>Antenna Connectors</span></a></li>
-          <li><a href="produk.html?cat=tools"><span data-lang-id>Perkakas 1000V</span><span data-lang-en>1000V Tools</span></a></li>
+          <li><a href="kategori/plugs.html"><span data-lang-id>Colokan & Stop Kontak</span><span data-lang-en>Plugs & Sockets</span></a></li>
+          <li><a href="kategori/cables.html"><span data-lang-id>Sepatu Kabel</span><span data-lang-en>Cable Lugs</span></a></li>
+          <li><a href="kategori/lighting.html"><span data-lang-id>Aksesori Lampu</span><span data-lang-en>Lighting</span></a></li>
+          <li><a href="kategori/antenna.html"><span data-lang-id>Konektor Antena</span><span data-lang-en>Antenna Connectors</span></a></li>
+          <li><a href="kategori/tools.html"><span data-lang-id>Perkakas 1000V</span><span data-lang-en>1000V Tools</span></a></li>
         </ul>
       </div>
       <div>
@@ -499,9 +516,9 @@ setTimeout(function(){document.documentElement.classList.remove('intro');},4000)
   <div class="modal-panel"></div>
 </div>
 
-<script src="assets/js/products.js"></script>
-<script src="assets/js/hero.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/products.js?v=93f0c18e"></script>
+<script src="assets/js/hero.js?v=95531145"></script>
+<script src="assets/js/main.js?v=005d8275"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

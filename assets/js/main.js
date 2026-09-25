@@ -8,10 +8,8 @@ const CONFIG = {
   waGreetingId: "Halo TDM Electric Indonesia, saya ingin menanyakan produk",
   waGreetingEn: "Hello TDM Electric Indonesia, I would like to ask about",
   tokopedia: "https://www.tokopedia.com/tdm-electric",
-  // Official share link from Blibli Seller Center (store TDE-70004). It is an
-  // AppsFlyer redirect; swap for the canonical blibli.com store URL when you
-  // have it, and this is the only line that needs changing.
-  blibli: "https://blibli.onelink.me/GNtk/sx7xff5p",
+  // Canonical Blibli store page (store code TDE-70004).
+  blibli: "https://www.blibli.com/merchant/tdm-electric/TDE-70004",
   email: "mike@pnglobalindo.com",
 };
 
@@ -32,7 +30,7 @@ const T = {
     pack: "Isi Kemasan",
     ean: "Barcode (EAN)",
     warranty: "Garansi",
-    warrantyVal: "3 tahun resmi TDM Electric",
+    warrantyVal: (y) => `${y} tahun resmi TDM Electric`,
     askWa: "Tanya stok & harga grosir",
     buyTokopedia: "Beli di Tokopedia",
     buyBlibli: "Beli di Blibli",
@@ -54,7 +52,7 @@ const T = {
     pack: "Pack Contents",
     ean: "Barcode (EAN)",
     warranty: "Warranty",
-    warrantyVal: "3-year official TDM Electric",
+    warrantyVal: (y) => `${y}-year official TDM Electric`,
     askWa: "Ask stock & wholesale price",
     buyTokopedia: "Buy on Tokopedia",
     buyBlibli: "Buy on Blibli",
@@ -101,14 +99,18 @@ function el(tag, cls, html) {
 }
 
 /* ---------- product card ------------------------------------------------- */
+// Pages one folder down (produk/, kategori/) set window.SITE_ROOT = "../".
+const ROOT = window.SITE_ROOT || "";
+const productHref = (p) => `${ROOT}produk/${p.slug}.html`;
+
 function productCard(p) {
-  const card = el("button", "product-card");
-  card.type = "button";
-  card.setAttribute("aria-label", pName(p));
+  // a real link, so every product page is crawlable and shareable
+  const card = el("a", "product-card");
+  card.href = productHref(p);
   card.innerHTML = `
     <div class="product-photo">
       <span class="product-sku">${p.sku}</span>
-      <img src="${p.images[0]}" alt="${pName(p)}" loading="lazy" width="400" height="300">
+      <img src="${ROOT}${p.images[0]}" alt="${pName(p)}" loading="lazy" width="400" height="300">
     </div>
     <div class="product-body">
       <div class="product-name">${pName(p)}</div>
@@ -118,7 +120,6 @@ function productCard(p) {
         <span class="product-more">${t().detail} →</span>
       </div>
     </div>`;
-  card.addEventListener("click", () => openModal(p));
   return card;
 }
 
@@ -138,7 +139,7 @@ function openModal(p) {
     [t().weight, p.weight],
     [t().pack, p.pack],
     [t().ean, p.ean],
-    [t().warranty, t().warrantyVal],
+    [t().warranty, t().warrantyVal(p.warrantyYears || 3)],
   ].filter(([, v]) => v);
 
   modal.querySelector(".modal-panel").innerHTML = `
@@ -204,7 +205,7 @@ function renderHome() {
     CATEGORIES.forEach((c) => {
       const n = PRODUCTS.filter((p) => p.cat === c.key).length;
       const a = el("a", "cat-card");
-      a.href = `produk.html?cat=${c.key}`;
+      a.href = `${ROOT}kategori/${c.key}.html`;
       a.innerHTML = `
         <span class="cat-icon">${CAT_ICONS[c.key] || ""}</span>
         <h3>${cName(c)}</h3>

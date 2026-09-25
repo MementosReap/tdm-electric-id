@@ -62,3 +62,13 @@ Pushing to `main` publishes to GitHub Pages automatically. To host elsewhere, up
 ---
 
 TDM ELECTRIC® is a registered trademark of its respective owner.
+
+## Updating products
+
+`assets/js/products.js` holds every name, price and spec. After editing it (or the descriptions and marketplace links in `tools/content.py`), run:
+
+```bash
+python3 tools/build_site.py
+```
+
+This regenerates the product pages in `produk/`, the category pages in `kategori/`, `sitemap.xml`, the catalogue's structured data, and the cache-busting stamps on CSS/JS links. Commit everything it changes, then upload to Hostinger.

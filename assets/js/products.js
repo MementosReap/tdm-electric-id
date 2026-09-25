@@ -466,6 +466,26 @@ const PRODUCTS = [
     "pack": null
   },
   {
+    "sku": "SQ0335-0078",
+    "nameId": "Fitting Lampu Dinding E27 Tahan Panas Hitam",
+    "nameEn": "Heat-Resistant E27 Wall Lampholder, Black",
+    "cat": "lighting",
+    "specs": [
+      "E27",
+      "Tahan panas",
+      "Pasang dinding"
+    ],
+    "price": 8500,
+    "images": [
+      "assets/img/products/SQ0335-0078.jpg"
+    ],
+    "ean": null,
+    "material": "Plastik tahan panas",
+    "dims": null,
+    "weight": null,
+    "pack": null
+  },
+  {
     "sku": "SQ1809-0021",
     "nameId": "Konektor F-Type untuk Kabel Antena RG6",
     "nameEn": "F-Type Plug for RG6",
@@ -513,7 +533,7 @@ const PRODUCTS = [
       "75Ω",
       "F → F"
     ],
-    "price": 440000,
+    "price": 330000,
     "images": [
       "assets/img/products/SQ1809-0023.jpg"
     ],

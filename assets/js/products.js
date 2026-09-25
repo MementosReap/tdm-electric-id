@@ -49,7 +49,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13700,
+    "price": 16000,
     "images": [
       "assets/img/products/SQ1806-0405.jpg"
     ],
@@ -69,7 +69,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13700,
+    "price": 16000,
     "images": [
       "assets/img/products/SQ1806-0406.jpg"
     ],
@@ -89,7 +89,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13000,
+    "price": 15000,
     "images": [
       "assets/img/products/SQ1806-0411.jpg"
     ],
@@ -109,7 +109,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13000,
+    "price": 15000,
     "images": [
       "assets/img/products/SQ1806-0412.jpg"
     ],
@@ -130,7 +130,7 @@ const PRODUCTS = [
       "IP20",
       "Maks 4000W"
     ],
-    "price": 14000,
+    "price": 16000,
     "images": [
       "assets/img/products/SQ1806-0003.jpg"
     ],
@@ -150,7 +150,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 13800,
+    "price": 16000,
     "images": [
       "assets/img/products/SQ1806-0004.jpg"
     ],
@@ -170,7 +170,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 23800,
+    "price": 30000,
     "images": [
       "assets/img/products/SQ1806-0009.jpg"
     ],
@@ -190,7 +190,7 @@ const PRODUCTS = [
       "250V",
       "IP44"
     ],
-    "price": 30500,
+    "price": 35000,
     "images": [
       "assets/img/products/SQ1818-0001.jpg"
     ],
@@ -210,7 +210,7 @@ const PRODUCTS = [
       "250V",
       "IP44"
     ],
-    "price": 46300,
+    "price": 55000,
     "images": [
       "assets/img/products/SQ1818-0002.jpg"
     ],
@@ -231,7 +231,7 @@ const PRODUCTS = [
       "IP54",
       "Tutup transparan"
     ],
-    "price": 49600,
+    "price": 63000,
     "images": [
       "assets/img/products/SQ1818-0009.jpg"
     ],
@@ -275,7 +275,7 @@ const PRODUCTS = [
       "Tutup flip",
       "Arde"
     ],
-    "price": 41600,
+    "price": 46000,
     "images": [
       "assets/img/products/SQ1804-0011.jpg"
     ],
@@ -317,7 +317,7 @@ const PRODUCTS = [
       "250V",
       "IP20"
     ],
-    "price": 16500,
+    "price": 19000,
     "images": [
       "assets/img/products/SQ1824-0010.jpg"
     ],
@@ -336,7 +336,7 @@ const PRODUCTS = [
       "0,5-1,5 mm²",
       "Isi 100 pcs"
     ],
-    "price": 27700,
+    "price": 28000,
     "images": [
       "assets/img/products/SQ0502-0001.jpg"
     ],
@@ -355,7 +355,7 @@ const PRODUCTS = [
       "±1,5 mm²",
       "Isi 100 pcs"
     ],
-    "price": 34800,
+    "price": 40000,
     "images": [
       "assets/img/products/SQ0504-0003.jpg"
     ],
@@ -375,7 +375,7 @@ const PRODUCTS = [
       "Panjang 12 mm",
       "Isi 100 pcs"
     ],
-    "price": 36800,
+    "price": 50000,
     "images": [
       "assets/img/products/SQ0512-0006.jpg"
     ],
@@ -435,7 +435,7 @@ const PRODUCTS = [
       "Metal",
       "Braket + kabel"
     ],
-    "price": 44800,
+    "price": 52000,
     "images": [
       "assets/img/products/SQ0335-0047.jpg"
     ],
@@ -455,7 +455,7 @@ const PRODUCTS = [
       "Metal",
       "220V"
     ],
-    "price": 44800,
+    "price": 52000,
     "images": [
       "assets/img/products/SQ0335-0050.jpg"
     ],
@@ -475,7 +475,7 @@ const PRODUCTS = [
       "75Ω",
       "F-Type"
     ],
-    "price": 900,
+    "price": 90000,
     "images": [
       "assets/img/products/SQ1809-0021.jpg"
     ],
@@ -483,7 +483,7 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": "100 pcs"
   },
   {
     "sku": "SQ1809-0022",
@@ -494,7 +494,7 @@ const PRODUCTS = [
       "75Ω",
       "F → TV"
     ],
-    "price": 3150,
+    "price": 315000,
     "images": [
       "assets/img/products/SQ1809-0022.jpg"
     ],
@@ -502,7 +502,7 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": "100 pcs"
   },
   {
     "sku": "SQ1809-0023",
@@ -513,7 +513,7 @@ const PRODUCTS = [
       "75Ω",
       "F → F"
     ],
-    "price": 3300,
+    "price": 440000,
     "images": [
       "assets/img/products/SQ1809-0023.jpg"
     ],
@@ -521,7 +521,7 @@ const PRODUCTS = [
     "material": "Logam berlapis nikel",
     "dims": null,
     "weight": null,
-    "pack": null
+    "pack": "100 pcs"
   },
   {
     "sku": "SQ1010-0101",
@@ -534,7 +534,7 @@ const PRODUCTS = [
       "CR-V",
       "VDE"
     ],
-    "price": 180000,
+    "price": 200000,
     "images": [
       "assets/img/products/SQ1010-0101.jpg"
     ],
@@ -555,7 +555,7 @@ const PRODUCTS = [
       "CR-V",
       "VDE"
     ],
-    "price": 180000,
+    "price": 200000,
     "images": [
       "assets/img/products/SQ1010-0103.jpg"
     ],
@@ -575,7 +575,7 @@ const PRODUCTS = [
       "8 pcs",
       "Tas kain"
     ],
-    "price": 420000,
+    "price": 400000,
     "images": [
       "assets/img/products/SQ1017-0101.jpg"
     ],

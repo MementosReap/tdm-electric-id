@@ -2,7 +2,9 @@
 
 Brand and catalogue site for TDM Electric products in the Indonesian market.
 
-**Live:** https://mementosreap.github.io/tdm-electric-id/
+**Live:** https://tdme.pnglobalindo.com/ (Hostinger, the canonical address)
+
+**Mirror:** https://mementosreap.github.io/tdm-electric-id/ (GitHub Pages). Keep this running: the Blibli listings load their product photos from `assets/img/products/` here.
 
 Static HTML, CSS and JavaScript. No build step, no dependencies, no framework. Clone it and open `index.html`, or serve the folder.
 

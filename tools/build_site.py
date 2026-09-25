@@ -27,6 +27,19 @@ ORG_ID = f"{SITE}/#org"
 DEFAULT_WARRANTY = 3
 TODAY = datetime.date.today().isoformat()
 
+# Google Analytics 4 — property "TDM Electric Indonesia" under pasifikniagaglobalindo@gmail.com.
+# Injected into every page's <head> (generated and hand-written), between the ga4 markers.
+GA_ID = "G-7C311GNP1F"
+GA_TAG = f"""<!-- ga4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', '{GA_ID}');
+</script>
+<!-- /ga4 -->"""
+
 PRODUCTS_JS = ROOT / "assets/js/products.js"
 src = PRODUCTS_JS.read_text()
 CATEGORIES = json.loads(re.search(r"const CATEGORIES = (\[.*?\n\]);", src, re.S).group(1))
@@ -95,6 +108,7 @@ def head(title, desc, canonical, image, og_type="website", extra_meta="", jsonld
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{GA_TAG}
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
@@ -366,6 +380,13 @@ for f in pages:
     text = f.read_text()
     text = re.sub(r'((?:\.\./)?(assets/(?:css|js)/[\w.-]+\.(?:css|js)))(?:\?v=\w+)?"',
                   lambda m: f'{m.group(1)}?v={stamp[m.group(2)]}"' if m.group(2) in stamp else m.group(0), text)
+    f.write_text(text)
+
+# ---------------------------------------------------------------- analytics tag on hand-written pages
+for name in ("index.html", "produk.html", "tentang.html", "kontak.html", "404.html"):
+    f = ROOT / name
+    text = re.sub(r"\n<!-- ga4 -->.*?<!-- /ga4 -->", "", f.read_text(), flags=re.S)
+    text = re.sub(r'(<meta name="viewport"[^>]*>)', lambda m: m.group(1) + "\n" + GA_TAG, text, count=1)
     f.write_text(text)
 
 print(f"{len(PRODUCTS)} product pages, {len(CATEGORIES)} category pages, {len(urls)} sitemap URLs")

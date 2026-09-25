@@ -300,6 +300,21 @@ function renderAll() {
   if (window.hxLayout) window.hxLayout();
 }
 
+/* ---------- analytics ---------------------------------------------------- */
+// One delegated listener reports the clicks that matter commercially to GA4.
+// Links are classified by destination, so buttons added later are covered too.
+document.addEventListener("click", (e) => {
+  const a = e.target.closest && e.target.closest("a[href]");
+  if (!a || typeof gtag !== "function") return;
+  const href = a.href;
+  const params = { link_url: href, page_path: location.pathname };
+  if (/wa\.me\/\?text=/.test(href)) gtag("event", "share", { ...params, method: "whatsapp" });
+  else if (/wa\.me\/\d/.test(href)) gtag("event", "whatsapp_click", params);
+  else if (/tokopedia\.com/.test(href)) gtag("event", "marketplace_click", { ...params, marketplace: "tokopedia" });
+  else if (/blibli\.com/.test(href)) gtag("event", "marketplace_click", { ...params, marketplace: "blibli" });
+  else if (/^mailto:/.test(href)) gtag("event", "email_click", params);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   // WhatsApp + marketplace links
   document.querySelectorAll("[data-wa]").forEach((a) => { a.href = waLink(a.dataset.wa || ""); });

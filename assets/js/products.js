@@ -533,7 +533,7 @@ const PRODUCTS = [
       "75Ω",
       "F → F"
     ],
-    "price": 330000,
+    "price": 440000,
     "images": [
       "assets/img/products/SQ1809-0023.jpg"
     ],
